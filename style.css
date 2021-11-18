@@ -1,6 +1,6 @@
 body{
 margin: 50px;
-
+background-color: lightblue;
 
 }
 
@@ -20,4 +20,35 @@ img {
 }
 img {
     border: 0;
+}
+section#master{
+    display: grid;
+    grid-template-columns: 5fr 9fr;
+    gap: 60px;
+}
+
+.Title{
+    background-color: rgb(139, 248, 243);
+    height: 60px;
+    text-align: center;
+}
+
+.div-titlu h4{
+    padding: 10px;
+    font-size: 24px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.div-buttons div{
+    cursor: pointer;
+    background-color: #25975A;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 25px;
 }
