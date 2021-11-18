@@ -1,0 +1,23 @@
+body{
+margin: 50px;
+
+
+}
+
+
+
+.navbar-brand > img {
+    display: block;
+}
+.logo {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+  
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
