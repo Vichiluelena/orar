@@ -32,28 +32,31 @@ img{
 section#master{
     display: grid;
     grid-template-columns: 5fr 9fr;
-    gap: 60px;
+    gap: 15px;
+    width: 10px;
+    height: 70px;
    
 }
 
 
 .Title{
     background-color: lightblue;
-    height: 20px;
+    height: 90px;
     text-align: center;
     margin:20px;
+    font-weight: bold;
 }
 
-.div-titlu h5{
+.div-Title{
     padding: 10px;
-    font-size: 24px;
+    font-size: 50px;
     
 }
 
 .buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
+    gap: 65px;
 }
 
 .div-buttons div{
@@ -65,7 +68,7 @@ section#master{
     margin-top: 25px;
 }
 .Tabel1 {
-    margin-top: 25px;
+    margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -94,12 +97,13 @@ div#lection{
 
 
 .Tabel2{
-    text-align: left; /*pozitia textului*/
+    text-align: center; /*pozitia textului*/
     height: 40px;
     width: 500px;
     border:1 px;
-    font-size: 10px; /*marimea scrisului*/
+    font-size: 12px; /*marimea scrisului*/
     float:right;
+    margin-top: 0px;
 }
 
 
@@ -137,8 +141,8 @@ div#lection{
 
 
 .tabel-info{
-    text-align: center;
-    margin-top: 15px;
+margin-top: 700px;
+text-align: center;
 }
 
 .tabel-info span{
@@ -147,6 +151,9 @@ div#lection{
     padding: 7px; /*polea vocrug tecsta*/
     font-weight: bold;
     line-height: normal;/*distanta intre rinduri*/
+    
+
+
 }
 
 
