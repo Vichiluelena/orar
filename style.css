@@ -1,25 +1,20 @@
 body{
 margin: 50px;
-background-color: lightblue;
+background: linear-gradient(45deg, #EECFBA, #C5DDE8);
 font-family: 'Kaushan Script', cursive;
 font-family: 'M PLUS Code Latin', sans-serif;
 font-family: 'Roboto Mono', monospace;
 }
 
-
-
-.navbar-brand > img {
-    display: block;
-}
 .logo {
     position: absolute;
-    width: 140px;
+    width: 180px;
     height: 70px;
     margin-left: 25px;
     float: right; /* Выравнивание по левому краю */
     margin: 0px;
     z-index: 1;
-    
+   
 }
 img {
     vertical-align: middle;
@@ -29,7 +24,31 @@ img{
     border: 0;
     
 }
-section#master{
+
+.Title{
+    border: none; /* Убираем границу */
+    background-color: rgb(238, 232, 237); /* Цвет линии */
+    color: rgb(0, 0, 0); /* Цвет линии для IE6-7 */
+    height: 20px; /* Толщина линии */
+    height: 20px;
+    text-align: center;
+    margin:20px;
+    margin-top: 100px;
+    font-weight: bold;
+    border-left: 2px solid rgb(20, 19, 19); /* Параметры линии */ 
+    margin-left: 30px; /* Отступ слева */
+    padding-left: 10px; /* Расстояние от линии до текста */ 
+    border-right: 2px solid rgb(83, 76, 76); /* Параметры линии */ 
+    margin-right: 30px; /* Отступ слева */
+    padding-right: 10px; /* Расстояние от линии до текста */ 
+}
+
+.div-Title{
+    padding: 10px;
+    font-size: 50px;
+    
+}
+section#orar{
     display: grid;
     grid-template-columns: 5fr 9fr;
     gap: 15px;
@@ -39,19 +58,7 @@ section#master{
 }
 
 
-.Title{
-    background-color: lightblue;
-    height: 90px;
-    text-align: center;
-    margin:20px;
-    font-weight: bold;
-}
 
-.div-Title{
-    padding: 10px;
-    font-size: 50px;
-    
-}
 
 .buttons{
     display: grid;
@@ -68,7 +75,6 @@ section#master{
     margin-top: 25px;
 }
 .Tabel1 {
-    margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -99,7 +105,7 @@ div#lection{
 .Tabel2{
     text-align: center; /*pozitia textului*/
     height: 40px;
-    width: 500px;
+    width: 600px;
     border:1 px;
     font-size: 12px; /*marimea scrisului*/
     float:right;
@@ -143,6 +149,15 @@ div#lection{
 .tabel-info{
 margin-top: 700px;
 text-align: center;
+border-left: 2px solid rgb(20, 19, 19); /* Параметры линии */ 
+    margin-left: 30px; /* Отступ слева */
+    padding-left: 10px; /* Расстояние от линии до текста */ 
+    border-right: 2px solid rgb(83, 76, 76); /* Параметры линии */ 
+    margin-right: 30px; /* Отступ слева */
+    padding-right: 10px; /* Расстояние от линии до текста */ 
+
+
+
 }
 
 .tabel-info span{
@@ -152,7 +167,7 @@ text-align: center;
     font-weight: bold;
     line-height: normal;/*distanta intre rinduri*/
     
-
+    
 
 }
 
