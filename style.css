@@ -17,8 +17,8 @@ font-family: 'Roboto Mono', monospace;
     height: 70px;
     margin-left: 25px;
     float: right; /* Выравнивание по левому краю */
-    margin: 7px 7px 7px 7px;
-    
+    margin: 0px;
+    z-index: 1;
     
 }
 img {
@@ -33,15 +33,18 @@ section#master{
     display: grid;
     grid-template-columns: 5fr 9fr;
     gap: 60px;
+   
 }
+
 
 .Title{
-    background-color: rgb(139, 248, 243);
-    height: 60px;
+    background-color: lightblue;
+    height: 20px;
     text-align: center;
+    margin:20px;
 }
 
-.div-titlu h4{
+.div-titlu h5{
     padding: 10px;
     font-size: 24px;
     
@@ -61,7 +64,7 @@ section#master{
     padding: 10px;
     margin-top: 25px;
 }
-.Tabel {
+.Tabel1 {
     margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -71,13 +74,13 @@ section#master{
     border:1 px;
 }
 
-.Tabel div{
+.Tabel1 div{
     background-color: white;
     border: 0.5px solid #33333366;
     color: white;
 }
 
-div#tabel-dates{
+div#Dates-about-lection{
     border: 0.5px solid white;
     background-color: #25975A;
 }
@@ -88,30 +91,63 @@ div#lection{
     background-color: #1a5736;
 }
 
-.Tabel2 {
-    margin-left: 700px;
-    margin-right: 100px;
-    margin-inline-end: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    height: 200px;
-    width: 400px;
+
+
+.Tabel2{
+    text-align: left; /*pozitia textului*/
+    height: 40px;
+    width: 500px;
     border:1 px;
+    font-size: 10px; /*marimea scrisului*/
+    float:right;
 }
 
-.Tabel2 div{
+
+.rows{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    min-height: 10px;
     background-color: white;
+    color: #333333d0;
     border: 0.5px solid #33333366;
-    color: white;
+}
 
+.rows:hover{
+    background-color: #49a775;
+    color: white;   
+    min-width: 50px;
+}
+
+.column1{
+    color: white;
+    background-color: #25975A;
+    border: 0.5px solid white;
+    border-right: 100 px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.column2 {
+    border-left: 0;
+}
+
+.column2 p{
+    margin: 5px;
 }
 
 
+.tabel-info{
+    text-align: center;
+    margin-top: 15px;
+}
 
-
-
-
+.tabel-info span{
+    color: rgb(5, 68, 5);
+    font-size: 15px; /*marimea scrisului*/
+    padding: 7px; /*polea vocrug tecsta*/
+    font-weight: bold;
+    line-height: normal;/*distanta intre rinduri*/
+}
 
 
 
