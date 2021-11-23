@@ -1,89 +1,287 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
-
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/9.5.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/9.5.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/9.5.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/9.5.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/9.5.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/9.5.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/9.5.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/9.5.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/9.5.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/9.5.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=M+PLUS+Code+Latin&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <title>Orar USARB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+    <a  href="index.html" style="position: relative; margin-right: 20px;">
+        <img src="C:\Users\fagad\Desktop\orar.git\y\Logo2.jpg" alt="Logo" class="logo" title="">
+    </a>
+    <div class="Title">
+    <p>Alecu Russo State University</p>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    </nav>
+    </div>
+    </div>
+        
+    <section id="orar">
+  
+    <input type="text" placeholder="Write name of group"></input>
+    
+    
+    <select class="GROUPS" name="Grupe" size="2">  
+    <option> 101</option>  
+    <option> 102 </option>  
+    <option> 103 </option>  
+    <option> 104 </option>
+    <option> 105 </option>  
+    <option> 106 </option>  
+    <option> IS11Z </option>  
+    <option> IT11Z </option> 
+    <option> IM11Z </option>
+    <option> MI11Z </option>
+    <option> SP12M </option>
+    <option> GB11Z </option>
+    <option> JJ11Z</option>
+    <option> FP11Z </option>
+    <option> JR11Z </option>
+    <option> PP11Z </option>
+    <option> AB11Z </option>
+    <option> BA11Z </option>
+    <option> FB11Z</option>
+    <option> LT11Z</option>  
+    </select>   
+    
+    <select class="select-hide" name="Ziua">
+    <option disabled selected hidden>Select the day</option>
+    <option>Monday</option>
+    <option>Tuesday</option>
+    <option>Wednesday</option>
+    <option>Thursday</option>
+    <option>Friday</option>
+    <option>Satuday</option>
+    <option>Sunday</option>
+    </select>
+            
+    <select class="select-hide" name="week">
+    <option disabled selected hidden>Select the week</option>
+    <option>1 (30.8.2021 - 5.9.2021)</option>
+    <option>2 (6.9.2021 - 12.9.2021)</option>
+    <option>3 (13.9.2021 - 19.9.2021)</option>
+    <option>4 (20.9.2021 - 26.9.2021)</option>
+    <option>5 (27.9.2021 - 3.10.2021)</option>
+    <option>6 (4.10.2021 - 10.10.2021)</option>
+    <option>8 (11.10.2021 - 17.10.2021)</option>
+    <option>9 (11.10.2021 - 17.10.2021)</option>
+    <option>10 (11.10.2021 - 17.10.2021)</option>
+    <option>11 (11.10.2021 - 17.10.2021)</option>
+    <option>12 (11.10.2021 - 17.10.2021)</option>
+    <option>13 (11.10.2021 - 17.10.2021)</option>
+    <option>14 (11.10.2021 - 17.10.2021)</option>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+    </select>
+    
+    <select class="selector" name="Semester">
+    <option disabled selected hidden>Select the semester</option>
+    <option>1</option>
+    <option>2</option>
+    </select>
+    </section>
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+    <div class="Tabel1">
+    <div id="Dates-about-lection"></div>
+    <div id="Dates-about-lection">1'st Schedule</div>
+    <div id="Dates-about-lection">2'nd Schedule</div>
+    <div id="Dates-about-lection">3'rd Schedule</div>
+    <div id="Dates-about-lection">4'th Schedule</div>
+    <div id="Dates-about-lection">5'th Schedule</div>
+    <div id="Dates-about-lection">6'th Schedule</div>
+    <div id="Dates-about-lection">7'th Schedule</div>
+    
+    
+    <div id="Dates-about-lection">M - 15</div>
+        <div id="lection">Lab</div>
+        <div id="lection">Lab</div>
+        <div id="lection">Lab</div>
+        <div id="lection">Lab</div>
+        <div id="lection">Lec</div>
+        <div></div>
+        <div></div>
+            
+    <div id="Dates-about-lection">Tue - 16</div>
+        <div id="lection">Lab</div>
+        <div id="lection">Lec</div>
+        <div></div>
+        <div></div>
+        <div id="lection">Per.Ev</div>
+        <div></div>
+        <div></div>
+    
+    <div id="Dates-about-lection">Wed - 17</div>
+        <div></div>
+        <div id="lection">Lab</div>
+        <div id="lection">Lab</div>
+        <div id="lection">Lec</div>
+        <div id="lection">S</div>
+        <div></div>
+        <div></div>
+            
+    <div id="Dates-about-lection">Thu- 18</div>
+        <div id="lection">S</div>
+        <div id="lection">S</div>
+        <div id="lection">S</div>
+        <div id="lection">S</div>
+        <div id="lection">Per.Ev</div>
+        <div></div>
+        <div></div>
+
+    <div id="Dates-about-lection">Fri - 19</div>
+        <div id="lection">Lec</div>
+        <div></div>
+        <div id="lection">Lec</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+    <div id="Dates-about-lection">Sat - 20</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+            
+    <div id="Dates-about-lection">Sun - 21</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+</div>
+
+
+<section class="Tabel2">
+    <div class="lections-tabel">
+    <div class="rows">
+    <div class="column1">
+        <span></span>
+        <span>8:00 am<br>9:30 am</span>
+        <span></span>
+    </div>
+    
+    <div class="column2">
+        <p><strong>Matematica I</strong></p>
+        <p>Laborator</p>
+        <p>prof. Ciobanu I.</p>
+        <p><strong>videoconferință</strong></p>
+    </div>
+    </div>
+
+    <div class="rows">
+        <div class="column1">
+        <span></span>
+        <span>9:45 am<br>11:15 am</span>
+        <span></span>
+    </div>
+                
+    <div class="column2">
+        <p><strong>Proiectarea paginilor WEB</strong></p>
+        <p>Laborator</p>
+        <p>asist. univ.Chilat S.</p>
+        <p><strong>videoconferință</strong></p>
+    </div>
+    </div>
+            
+    <div class="rows">
+        <div class="column1">
+        <span></span>
+        <span>11:30 am<br>1:00 pm</span>
+        <span></span>
+        </div>
+    
+    
+    <div class="column2">
+        <p><strong>Bazele programării I</strong></p>
+        <p>Laborator</p>
+        <p>asist. univ.Gorea A.</p>
+        <p><strong>videoconferință</strong></p>
+    </div>
+    </div>
+            
+    <div class="rows">
+        <div class="column1">
+        <span></span>
+        <span>1:15 pm<br>2:45 pm</span>
+        <span></span>
+        </div>  
+
+    <div class="column2">
+        <p><strong>Limba engleză I</strong></p>
+        <p>Laborator</p>
+        <p>asist. univ.L. Coșulean</p>
+        <p><strong>videoconferință</strong></p>
+    </div>
+    </div>
+            
+    <div class="rows">
+        <div class="column1">
+        <span></span>
+        <span>3:00 pm<br>4:30 pm</span>
+        <span></span>
+        </div>
+    
+    <div class="column2">
+        <p><strong>Aplicații generice</strong></p>
+        <p>Lecture</p>
+        <p>asist. univ.Skutniţki O.</p>
+        <p><strong>videoconferință</strong></p>
+    </div>
+    </div>
+            
+    <div class="rows">
+        <div class="column1">
+        <span></span>
+        <span>4:45 pm<br>6:15 pm</span>
+        <span></span>
+        </div>
+
+    
+    <div class="column2"></div>
+</div>
+    <div class="rows">
+        <div class="column1">
+        <span></span>
+        <span>6:30<br>8:00pm</span>
+        <span></span>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+                
+ <div class="column2"></div>      
+    </div>
+        
+ </section>
+</section>   
+<div class="tabel-info">
+    <span>Lec - Lecture</span>
+    <span>S - Seminar</span>
+    <span>L - Laboratory</span>
+    <span>PC - Course project</span>
+    <br>
+    <span>EP - Periodical Evaluation</span>
+    <span>C - Consultation</span>
+    <span>E - Examination</span>
+    <span>R - Reexamiation</span>
+</div>
+    
+
+
+        
+</body>
 </html>
