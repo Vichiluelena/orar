@@ -67,7 +67,7 @@ section#orar{
 }
 
 .div-buttons div{
-    cursor: pointer;
+    cursor: pointer; /*duci cursorul il schimba*/
     background-color: #485a50;
     text-align: center;
     color: white;
